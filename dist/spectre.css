@@ -461,32 +461,32 @@ h6 {
 
 h1,
 .h1 {
-  font-size: 2rem;
+  font-size: clamp(1.6rem, 2vw + 1.17rem, 2rem);
 }
 
 h2,
 .h2 {
-  font-size: 1.6rem;
+  font-size: clamp(1.3rem, 1.5vw + .98rem, 1.6rem);
 }
 
 h3,
 .h3 {
-  font-size: 1.4rem;
+  font-size: clamp(1.1rem, 1.5vw + .78rem, 1.4rem);
 }
 
 h4,
 .h4 {
-  font-size: 1.2rem;
+  font-size: clamp(1rem, 1vw + .78rem, 1.2rem);
 }
 
 h5,
 .h5 {
-  font-size: 1rem;
+  font-size: clamp(.9rem, .5vw + .79rem, 1rem);
 }
 
 h6,
 .h6 {
-  font-size: .8rem;
+  font-size: clamp(.7rem, .5vw + .59rem, .8rem);
 }
 
 p {
