@@ -1,3 +1,5 @@
+@use "sass:math";
+
 // Icon resize
 .icon-resize-horiz,
 .icon-resize-vert {
@@ -191,7 +193,7 @@
     background: currentColor;
     box-shadow: -.25em .2em, .25em .2em;
     height: $icon-border-width;
-    top: $icon-border-width/2;
+    top: math.div($icon-border-width, 2);
     width: .5em;
   }
 }
